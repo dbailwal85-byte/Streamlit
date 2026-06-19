@@ -43,6 +43,8 @@ if user_input:
         bot_reply = "I am a simple Streamlit chatbot."
     elif "bye" in user_input.lower():
         bot_reply = "Goodbye! Have a great day."
+    elif " who are you" in user_input.lower():
+        bot_reply = "I am a chat Bot created by Deep using phython coding"
     else:
         bot_reply = "Sorry, I don't understand that yet."
 
